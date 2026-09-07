@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Resume - My Profile</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f4ff;
+      color: #29233a;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .hero {
+      background: linear-gradient(135deg, #8f7aea, #c6b8ff);
+      color: white;
+      border-radius: 24px;
+      padding: 45px;
+      text-align: center;
+      box-shadow: 0 12px 30px rgba(80, 60, 130, .15);
+    }
+    .avatar {
+      width: 105px;
+      height: 105px;
+      margin: 0 auto 18px;
+      border-radius: 50%;
+      background: white;
+      color: #8f7aea;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: bold;
+    }
+    h1 { margin: 0 0 8px; font-size: 38px; }
+    .subtitle { margin: 0; font-size: 18px; }
+    .card {
+      background: white;
+      margin-top: 22px;
+      padding: 28px 32px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(50, 40, 80, .08);
+    }
+    h2 {
+      color: #7059d6;
+      margin-top: 0;
+      border-bottom: 2px solid #eee9ff;
+      padding-bottom: 10px;
+    }
+    .info {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 10px;
+    }
+    .label { font-weight: bold; color: #7059d6; }
+    ul { padding-left: 22px; }
+    .tag {
+      display: inline-block;
+      background: #eeeaff;
+      color: #624cc5;
+      padding: 7px 13px;
+      border-radius: 20px;
+      margin: 4px;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #777;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      .hero { padding: 30px 20px; }
+      h1 { font-size: 30px; }
+      .card { padding: 22px; }
+      .info { grid-template-columns: 1fr; gap: 2px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <section class="hero">
+      <div class="avatar">ME</div>
+      <h1>Phatcharamai Suwanchana</h1>
+      <p class="subtitle">Digital Marketing Student | Creative & Responsible</p>
+    </section>
+
+    <section class="card">
+      <h2>Personal Information</h2>
+      <div class="info">
+        <div class="label">Name</div>
+        <div>Phatcharamai Suwanchana</div>
+
+        <div class="label">Address</div>
+        <div>Nonthaburi, Thailand</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Profile Statement</h2>
+      <p>
+        I am a responsible and adaptable Digital Marketing student who enjoys
+        learning new things and developing creative ideas. I can communicate
+        and work well with others, and I always try my best to complete my
+        responsibilities on time. I am interested in digital marketing,
+        social media, fashion, and online business.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Work Experience</h2>
+      <h3>Digital Marketing Projects</h3>
+      <ul>
+        <li>Created business ideas and marketing concepts for class projects.</li>
+        <li>Developed product and brand ideas for online businesses.</li>
+        <li>Practiced creating marketing content and presenting ideas.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Education</h2>
+      <h3>Digital Marketing Student</h3>
+      <p>University of the Thai Chamber of Commerce (UTCC) — 2568–Present</p>
+      <p>
+        Studying digital marketing, business, communication, branding,
+        and online marketing strategies.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Interests & Hobbies</h2>
+      <span class="tag">Fashion</span>
+      <span class="tag">Online Shopping</span>
+      <span class="tag">Online Business</span>
+      <span class="tag">Digital Marketing</span>
+      <span class="tag">Social Media</span>
+      <span class="tag">Creative Ideas</span>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Adaptability</li>
+        <li>Responsibility</li>
+        <li>Communication</li>
+        <li>Teamwork & People Skills</li>
+        <li>Creative Thinking</li>
+        <li>Basic Digital Marketing</li>
+      </ul>
+    </section>
+
+    <footer>
+      © 2026 My Online Resume
+    </footer>
+
+  </div>
+</body>
+</html>
